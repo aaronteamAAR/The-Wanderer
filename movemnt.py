@@ -33,7 +33,6 @@ while running:
         player_image = pygame.transform.rotate(player_image,-90)
 
     screen.fill((0, 0, 0))
-    
     screen.blit(player_image, (player_x, player_y))
 
     # Update the screen
